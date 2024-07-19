@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+    /* list-style: none;    */
+}
+:root{
+    --maincolor: #ffa028;
+}   
+.nav-link a{
+    padding: 12px ;
+}
+nav ul li{
+    font-family: oswald, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .32em;
+    text-transform: uppercase;
+    padding: 0 .75rem;
+}
+.logo-img{
+    height: 3.1rem; 
+    width: 4.7rem;
+}
+.nav-btn-container{
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
+    margin: 0;
+}
+.active, nav a:hover{
+    color: var(--maincolor) !important;
+}
+.container-fluid{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 1rem;
+    margin-left: 75px;
+    margin-right: 0;
+    margin-bottom: 1.2rem;
+}
+
+.img-carousel{
+    height: 35rem;
+}
+.carousel-caption{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-right: 43px;
+    padding-top: 6.8em;
+    display: flex;
+    flex-direction: column;
+}
+.heading-1{
+    text-align: right;
+    padding-bottom: 2.5rem;
+    font-family: oswald, sans-serif;
+    line-height: 3.2rem;
+    letter-spacing: .5rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.heading-1P{  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: right;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.heading-2{
+    display: block;
+    margin-top: 8.1rem;
+    margin-bottom: 3rem;
+    letter-spacing: .32em;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+    color: var(--maincolor);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.image-3{
+    height: 358px;
+    max-width: 100%;
+    padding: 0;
+}
+.sec-3-caption{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    color: #333;
+    margin: 0%;
+}
+.sec-3-specialization{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.43;
+    font-weight: 500;
+}
+.sec-3-specialization-h3{
+    font-size: 29px;
+    margin-bottom: 1em;
+}
+.sec-3-specialization-h4{
+    font-size: 1.3rem;
+    margin-bottom: .8em;
+}
+.s-icon{
+    height: 25px;
+    width: 52px;
+    margin: 9px;
+}
+
+
+/* section-4 */
+.sec-4{
+    margin-top: 8.1rem;
+}
+.sec-4-head{
+    text-align: right;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--maincolor);
+}
+.green-bg{
+    position: relative;
+    width: 100%;
+    height: 17rem;
+    top: 0;
+    left: 0;
+}
+/* .col-sm-4{
+    padding-right: 0;
+}
+.col-md-3{
+    padding-right: 0;
+} */
+.image-4 .image-5 .image-6{
+    width: 100%;
+}
+.sec-4-para{
+    position:absolute;
+    top: 2rem;
+    left: 4rem;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: .8rem;
+    text-align: left;
+}
+.img-container{
+    position: relative;
+}
+.card{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.card-title{
+    font-family: oswald, sans-serif;
+    font-size: 17px;
+    line-height: 1.1;
+    font-weight: 380;
+}
+/* section-5 */
+.sec-5{
+    margin: 0;
+}
+.image-carousel{
+    height: 28.5rem;
+    /* width: 315.5px; */
+    transition: 2s;
+}
+.image-carousel:hover{
+    transform: scale(1.5);
+    z-index: 2;
+}
+/* section-6 */
+.head-txt{
+    display: block;
+    margin-top: 8.1rem;
+    margin-bottom: 3rem;
+    letter-spacing: .32em;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+    color: var(--maincolor);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.image-our-supplies{
+    align-items: center;
+    height: 110px;
+    width: 16rem;
+    margin: 9px;
+
+}
+.btton{
+    display: block;
+    align-items: center;
+    margin-top: 5rem;
+}
+.btn{
+    font-family: oswald, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: .9rem !important;
+    text-align: center !important;
+    display: inline-block !important;
+    background-color: var(--maincolor) !important;
+    color: #fff !important;
+    letter-spacing: .14em !important;
+    border-radius: 30px !important;
+    padding: .9rem 2.6rem !important;
+}
+/* Footer ---------------------------------------------------------------------------------- */
+/* section-7 */
+.col-get{
+    color: black !important;
+    display: inline;
+}
+.col-intouch{
+    display: inline;
+}
+.footer{
+    background-image: url("https://images.unsplash.com/photo-1520299607509-dcd935f9a839?q=80&w=1586&h=250&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 220px;
+    width: 100%;
+    color: #fff;
+}
+.contacts{
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.btn-icon{
+    float: right;
+}
+.btton-1{
+    padding: 4px 37px;
+    font-family: oswald, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--maincolor);
+    color: #fff;
+    letter-spacing: .15em;
+    border-radius: 30px;
+    border: none;
+}
+/* end */
+.footer-end{
+    margin-top: .5rem;
+}
+.txt-7{
+    display: inline;
+    font-size: 1.3rem;
+    font-weight: 350;
+    font-family: oswald, sans-serif;
+    letter-spacing: .11rem;
+}
+.link-7{
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 350;
+    font-family: oswald, sans-serif;
+    letter-spacing: .11rem;
+    float: right;
+    display: inline;
+    
+}
+/* media queries start here */
+/* @media screen and (min-width:2000px) {
+    .container-fluid{
+        padding: 1rem 4.4rem;
+    }
+} */
+
+@media screen and (max-width:768px) {
+    .img-carousel{
+        height: 20rem;
+    }
+    .carousel-caption{
+        padding-right: 36px;
+        padding-top: 5.1em;
+    }
+    .heading-1{
+        padding-bottom: 2.5rem;
+        line-height: 2.3rem;
+        letter-spacing: .3rem;
+        font-size: 1.8rem;
+        font-weight: 270;
+    }
+    .heading-1P{
+        font-weight: 270;
+        font-size: 1rem;
+    }
+    nav ul li{
+        font-size: 11px;
+        font-weight: 300;
+        padding: 0 .3rem;
+    }
+    .heading-2{
+        margin-top: 3.5rem;
+        letter-spacing: .26em;
+        font-weight: 390;
+        font-size: 1.4rem;
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .image-3{
+        height: 254px;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .sec-3-caption{
+        font-size: .9rem;
+        font-weight: 375;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+    }
+    .sec-3-caption-head,.sec-3-specialization-h3{
+        text-align: center;
+    }
+    .sec-3-specialization{
+        line-height: 1;
+        font-weight: 375;
+    }
+    .sec-3-specialization-h3{
+        font-size: 22px;
+        margin-bottom: .9em;
+    }
+    .sec-3-specialization-h4{
+        font-size: .9rem;
+        margin-bottom: 1.8em;
+    }
+    .s-icon{
+        height: 13px;
+        width: 29px;
+        margin: 6px;
+    }
+    /* section-4 */
+    .sec-4{
+        margin-top: .1rem;
+    }
+    .green-bg{
+        width: 100%;
+        height: 140px;
+    }
+    .sec-4-head{
+        text-align: left;
+        font-size: 20px;
+        font-weight: 370;
+    }
+    .sec-4-para{
+        top: 26px;
+        left: 26px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .image-4,.image-5,.image-6{
+        height: 240px;
+    }
+    .card-title{
+        font-size: 17px;
+        font-weight: 380;
+    }
+
+    /* section-5 */
+    .sec-5{
+        margin: 0;
+    }
+    .image-carousel{
+        height: 26rem;
+        /* width: 10rem; */
+        transition: 3s;
+    }
+    /* section-5 */
+    .image-carousel:hover{
+        transform: scale(1.3);
+        z-index: 2;
+    }
+    /* section-6 */
+    .image-our-supplies{
+        height: 4rem;
+        width: 12.6rem;
+        margin: 16px;
+    }
+    .btton{
+        display: block;
+        align-items: center;
+        margin-top: 3.1rem;
+    }
+    .btn{
+        font-family: oswald, sans-serif !important;
+        font-weight: 400 !important;
+        font-size: .65rem !important;
+        letter-spacing: .1em !important;
+        border-radius: 1.8rem !important;
+        padding: .57rem 1.8rem !important;
+    }
+    .col-get{
+        color: black !important;
+        display: inline;
+    }
+    .col-intouch{
+        display: inline;
+    }
+    /* footer */
+    .footer{
+        height: 170px;
+    }
+    .btton-1{
+        padding: 3.2px 26px;
+        font-weight: 350;
+        font-size: .7rem;
+        letter-spacing: .11em;
+        border-radius: 30px;
+    }
+    /* end */
+    .footer-end{
+        margin-top: .3rem;
+    }
+    .txt-7{
+        font-size: 1rem;
+        font-weight: 350;
+        letter-spacing: .1rem;
+    }
+    .link-7{
+        font-size: 1rem;
+        font-weight: 350;
+    }
+
+}
+@media screen and (max-width:575px) {
+            
+    .img-carousel{
+        height: 23rem;
+    }
+    .carousel-caption{
+        padding-right: 32px;
+        padding-top: 4.7em;
+    }
+    .heading-1{
+        padding-bottom: 2.5rem;
+        line-height: 1.6rem;
+        letter-spacing: .1rem;
+        font-size: 1.3rem;
+        font-weight: 150;
+        }
+    .heading-1P{
+        font-size: .7rem;
+    }
+    nav ul li{
+        font-size: 8px;
+        font-weight: 200;
+        padding: 0 .1rem;
+    }
+    .heading-2{
+        margin-top: 1.7rem;
+        margin-bottom: 1.7rem;
+        letter-spacing: .24em;
+        font-weight: 300;
+        font-size: .98rem;
+    }
+    .row{
+        margin-top: 1.8rem;
+        margin-bottom: .9rem;
+    }
+    .image-3{
+        max-width: 100%;
+        height: 240px;
+        padding:0 45px;
+        padding-bottom: 12px;
+    }
+    .sec-3-caption{
+        padding-bottom: 12px;
+        max-width: 100%;
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .sec-3-specialization{
+        max-width: 100%;
+        font-weight: 340;
+    }
+    .sec-3-specialization-h3{
+        font-size: 19px;
+        margin-bottom: .6em;
+    }
+    .sec-3-specialization-h4{
+        font-size: 13px;
+        margin-bottom: 1em;
+    }
+    .s-icon{
+        height: 11px;
+        width: 25px;
+        margin: 3.7px;
+    }
+    /* section-4 */
+    .sec-4{
+        margin-top: .1rem;
+    }
+    .green-bg{
+        height: 10rem;
+    }
+    .sec-4-head{
+        text-align: left;
+        font-size: 30px;
+        font-weight: 370;
+    }
+    .sec-4-para{
+        top: 26px;
+        left: 26px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .card{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .image-4,.image-5,.image-6{
+        height: 200px;
+    }
+    .card-title{
+        font-size: 17px;
+        font-weight: 380;
+    }
+    .sec-5{
+        margin: 0;
+    }
+    .image-carousel{
+        height: 20rem;
+        /* width: 10rem; */
+        transition: 3s;
+    }
+    /* section-5 */
+    .image-carousel:hover{
+        transform: scale(1.3);
+        z-index: 2;
+    }
+
+    /* section-6 */
+    .head-txt{
+        margin-top: 3.9rem;
+        margin-bottom: 1.6rem;
+        line-height: .6;
+        font-size: 1.1rem;
+    }
+    .image-our-supplies{
+        height: 5.8rem;
+        width: 14.74rem;
+        margin-right: 1.3rem;
+    }
+    .btton{
+        margin-top: 2.1rem;
+    }
+    .btn{
+        font-weight: 300 !important;
+        font-size: .55rem !important;
+        letter-spacing: .1em !important;
+        border-radius: 1.8rem !important;
+        padding: .37rem .5rem !important;
+    }
+    /* footer */
+    .footer{
+        height: 140px;
+    }
+    .footer-txt{
+        font-size: .8rem;
+    }
+    .form-container .gap-3{
+        gap: .4rem !important;
+    }
+    .btton-1{
+        padding: 3px 20px;
+        font-weight: 300;
+        font-size: .5rem;
+    }
+    /* end */
+    .txt-7{
+        font-size: .7rem;
+        font-weight: 350;
+    }
+    .link-7{
+        font-size: .8rem;
+        font-weight: 300;
+    }
+}
